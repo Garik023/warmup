@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    width: 100;
+  }
+  div{
+    display: flex;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+  }
+  .info button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  .image {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info h2 {
+    color: white;
+  }
+  
+  ul li {
+    color: white;
+  }
+  a{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rout{
+    display: flex;
+    align-self: flex-start;
+  }
+  .rout a {
+    padding: 15px;
+  }
